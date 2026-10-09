@@ -1,0 +1,14 @@
+name: Disable workflow video
+
+on:
+  push:
+    branche: [ main ]
+jobs:
+  disable: 
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Maleeha
+        run: echo "Disable workflow video devops"
+  
+    
